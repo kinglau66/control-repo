@@ -4,7 +4,4 @@ node default {
     content => 'This should exist', 
     owner => 'root', 
     } 
-  file { 'root/README.md':
-    owner => 'root',
-  }
 }
